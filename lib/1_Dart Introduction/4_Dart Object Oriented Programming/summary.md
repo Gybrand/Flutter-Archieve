@@ -1,0 +1,3 @@
+(6) Dart Object Oriented Programming
+
+Pada materi Dart OOP ini mempelajari tentang perkenalan OOP, Penggunaan Class, Property dan Method. Pada OOP memiliki beberapa bagian yaitu Class, Object, Property, Method, Inheritance dan Generics. Class merupakan abstraksi dari sebuah benda atau object. Property merupakan hal-hal yang dimiliki oleh suatu class. Method merupakan aktifitas yang dapat dikerjakan suatu class dan memiliki sifat seperti fungsi.

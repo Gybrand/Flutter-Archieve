@@ -1,0 +1,10 @@
+import 'package:flutter_archieve/2_Flutter%20Introduction/8_MVVM%20Architecture/bloc/counter_event.dart';
+import 'package:flutter_archieve/2_Flutter%20Introduction/8_MVVM%20Architecture/bloc/counter_state.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+
+class CounterBloc extends Bloc<CounterEvent, CounterState> {
+  CounterBloc() : super(CounterState(0)) {
+    on<Increment>((event, emit) => emit(CounterState(state.value + 1)));
+    on<Decrement>((event, emit) => emit(CounterState(state.value - 1)));
+  }
+}

@@ -1,0 +1,3 @@
+(7) Deep Dive Into Dart Object Oriented Programming
+
+Pada materi ini mempelajari lebih dalam tentang Object Oriented Programming. Terdapat Consctructor, Inheritance, Method Overriding, Interface, Abstract Class, Polymorphism, Generics dan Enkapsulasi. Constructor merupakan method yang dijalankan saat pembuatan object. Inheritance merupakan membuat class baru dengan memanfaatkan class yang sudah ada. Method Overriding merupakan  mendefinisikan ulang (override) sebuah method yang sudah ada dalam superclass (kelas induk) di dalam subclass (kelas anak). Method yang di-override di subclass memiliki nama, parameter, dan tipe kembalian yang sama dengan method yang ada di superclass. 
