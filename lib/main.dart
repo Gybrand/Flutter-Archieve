@@ -10,6 +10,7 @@ import 'package:flutter_archieve/2_Flutter%20Introduction/8_MVVM%20Architecture/
 import 'package:flutter_archieve/2_Flutter%20Introduction/9_OPENAI/screens/home.dart';
 import 'package:flutter_archieve/Dropdown%20Global%20State%20Provider/page/homepage.dart';
 import 'package:flutter_archieve/Dropdown%20Global%20State%20Provider/providers/user_provider.dart';
+import 'package:flutter_archieve/Gauges/Pages/gauge_page.dart';
 import 'package:flutter_archieve/Weather%20API/pages/weather.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
@@ -50,7 +51,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: WeatherPage(),
+        home: GaugeIndicators(),
       ),
     );
   }
